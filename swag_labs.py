@@ -1,4 +1,3 @@
-from swagInfoUser import username, password
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep 
@@ -7,8 +6,7 @@ from time import sleep
 class Swag_labs:
     def __init__(self):
         self.driver=webdriver.Chrome()
-        self.username = username
-        self.password = password 
+        
     
 
 
